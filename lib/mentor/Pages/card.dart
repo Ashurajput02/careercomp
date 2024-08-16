@@ -27,8 +27,8 @@ class UserProfileCard extends StatelessWidget {
               children: [
                 CircleAvatar(
                   radius: 30,
-                  backgroundImage:
-                      NetworkImage('https://via.placeholder.com/150'),
+                  backgroundImage: NetworkImage(
+                      'https://img1.wsimg.com/isteam/ip/0d5f3429-5c7a-42e7-b997-1ff1fa1e3048/Studio-Project%20(3)%20(5).png/:/rs=w:175,h:175,cg:true,m/cr=w:175,h:175/qt=q:95'),
                   // You can use an actual image URL or an AssetImage here
                 ),
                 SizedBox(width: 10),
@@ -80,7 +80,10 @@ class UserProfileCard extends StatelessWidget {
                     // Handle accept action
                     print('Accepted');
                   },
-                  child: Text('Accept'),
+                  child: Text(
+                    'Accept',
+                    style: TextStyle(color: Colors.white),
+                  ),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.green,
                   ),
@@ -91,7 +94,7 @@ class UserProfileCard extends StatelessWidget {
                     // Handle reject action
                     print('Rejected');
                   },
-                  child: Text('Reject'),
+                  child: Text('Reject', style: TextStyle(color: Colors.white)),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.red,
                   ),

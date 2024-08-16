@@ -339,6 +339,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_image_slideshow/flutter_image_slideshow.dart';
 import 'package:thecareercompany/user/screen/profilescreen.dart';
+import 'package:thecareercompany/user/screen/slot.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -671,7 +672,11 @@ class _HomeState extends State<Home> {
               alignment: Alignment.centerRight,
               child: ElevatedButton(
                 onPressed: () {
-                  // Add your book logic here
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => AppointmentScreen()),
+                  );
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.white,

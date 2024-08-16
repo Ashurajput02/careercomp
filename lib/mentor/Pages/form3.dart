@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:thecarriercompny/Pages/form2.dart';
-
-import 'package:thecarriercompny/Pages/mentorhome.dart';
+import 'package:thecareercompany/mentor/Pages/form2.dart';
+import 'package:thecareercompany/mentor/Pages/mentorhome.dart';
 
 class MentorRegistrationPage extends StatelessWidget {
   @override

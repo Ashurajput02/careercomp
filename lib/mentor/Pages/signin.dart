@@ -5,12 +5,12 @@
 // import 'package:thecareercompany/user/screen/signupscreen1.dart';
 // // Import the HomeScreen
 
-// class SignInScreen extends StatefulWidget {
+// class SignInScreen2 extends StatefulWidget {
 //   @override
 //   _SignInScreenState createState() => _SignInScreenState();
 // }
 
-// class _SignInScreenState extends State<SignInScreen> {
+// class _SignInScreenState extends State<SignInScreen2> {
 //   final _auth = FirebaseAuth.instance;
 //   final _emailController = TextEditingController();
 //   final _passwordController = TextEditingController();
@@ -204,15 +204,16 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:thecareercompany/mentor/Pages/form.dart';
+import 'package:thecareercompany/mentor/Pages/mentorhome.dart';
 import 'package:thecareercompany/user/screen/homescreen.dart';
 import 'package:thecareercompany/user/screen/signupscreen1.dart';
 
-class SignInScreen extends StatefulWidget {
+class SignInScreen2 extends StatefulWidget {
   @override
   _SignInScreenState createState() => _SignInScreenState();
 }
 
-class _SignInScreenState extends State<SignInScreen> {
+class _SignInScreenState extends State<SignInScreen2> {
   final _auth = FirebaseAuth.instance;
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
@@ -250,7 +251,7 @@ class _SignInScreenState extends State<SignInScreen> {
             await _auth.signInWithCredential(credential);
         Navigator.pushReplacement(
           context,
-          MaterialPageRoute(builder: (context) => Home()),
+          MaterialPageRoute(builder: (context) => Mentorhome()),
         );
       }
     } catch (e) {
