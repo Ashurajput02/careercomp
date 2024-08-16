@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "724234866853",
+    "project_id": "locationtrackingtest-64e15",
+    "storage_bucket": "locationtrackingtest-64e15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724234866853:android:f8db14d1a35a2e7fddbd4c",
+        "android_client_info": {
+          "package_name": "com.example.locationtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724234866853-if3j9nn3sjcr1omcmd3gcmc1v7g54umk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.locationtracker",
+            "certificate_hash": "13a121ddf51eb0bea4af97f1c313a3bef8b1b5df"
+          }
+        },
+        {
+          "client_id": "724234866853-jgojoa2p2d859jr80hne6hkjm1vd52s8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3_gvAnOTmaN2vSsEifstKLzHIM25LFeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724234866853-jgojoa2p2d859jr80hne6hkjm1vd52s8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "724234866853-le5btmudihavr5vqsdl5dfb9j64tblbf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.locationtracker"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724234866853:android:f087263d6db6b2deddbd4c",
+        "android_client_info": {
+          "package_name": "com.example.thecareercompany"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724234866853-jgojoa2p2d859jr80hne6hkjm1vd52s8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3_gvAnOTmaN2vSsEifstKLzHIM25LFeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724234866853-jgojoa2p2d859jr80hne6hkjm1vd52s8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "724234866853-le5btmudihavr5vqsdl5dfb9j64tblbf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.locationtracker"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
